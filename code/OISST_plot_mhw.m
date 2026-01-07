@@ -1,10 +1,14 @@
 %This is view the MHW duration and max intensitty
 %Edit data：2026.1.4
 %==========================================================================
+% Edit:2026.1.7
+% change the load data in line 11
+%==========================================================================
 clc;clear;close all;
 
 %data input
-load('../output/OISST_MHW_20151101_20160430.mat')
+%load('../output/OISST_MHW_20151101_20160430.mat')
+load('../output/OISST_MHW_20151101_20160430_1982_2016.mat')
 
 [nlon,nlat] = meshgrid(lon,lat);
 [a,b] = size(MHW);
