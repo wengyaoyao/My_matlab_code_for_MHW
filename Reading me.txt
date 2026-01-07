@@ -19,7 +19,10 @@ The <code> folder contains the scripts used to calculate the marine heatwave met
 (Zhao et al., 2019, Journal of Open Source Software), which was used following the methodology described in the paper.
 
 %=====================================================================================================================
-The <output> folder provides the processed input data used in this analysis.
+The <output> folder provides the processed input data used in this analysis.(Due to memory limitations，didn't upload)
+
+We use oisst data (https://www.ncei.noaa.gov/products/optimum-interpolation-sst)
 
 The original data were interpolated to a 1/4° spatial resolution due to memory limitations of my computer.
+
 
