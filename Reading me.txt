@@ -1,0 +1,25 @@
+Explanation of the Attached Files
+
+The <figure> folder includes both my results and the corresponding figures from your paper for comparison.
+
+Map 1 shows the sea surface temperature anomaly. 
+We selected the same three-month period (indicated in the figure title) as in Figures 3h–q of the article to verify the correctness of the downloaded data. 
+The spatial patterns are generally consistent with the published results, suggesting that the input data are correctly obtained and processed.
+
+Map 2 presents the marine heatwave (MHW) duration (in days).
+When compared with Figure 4e in the paper, the maximum duration near the Java Island in my result appears lower than that reported in the article.
+
+Map 3 shows the maximum MHW intensity. Similar to Map 2, the peak intensity in my figure is weaker than that shown in Figure 4f, particularly in the northwestern Australian region.
+%=====================================================================================================================
+
+The <code> folder contains the scripts used to calculate the marine heatwave metrics and generate the figures.
+
+[detect.m]    is the marine heatwave detection function obtained from
+<https://github.com/ecjoliver/marineHeatWaves>
+(Zhao et al., 2019, Journal of Open Source Software), which was used following the methodology described in the paper.
+
+%=====================================================================================================================
+The <output> folder provides the processed input data used in this analysis.
+
+The original data were interpolated to a 1/4° spatial resolution due to memory limitations of my computer.
+
