@@ -18,8 +18,30 @@ The <code> folder contains the scripts used to calculate the marine heatwave met
 <https://github.com/ecjoliver/marineHeatWaves>
 (Zhao et al., 2019, Journal of Open Source Software), which was used following the methodology described in the paper.
 
+In my code, function  detect(temp,time,cli_start,cli_end,mhw_start,mhw_end)  has been used to calculate the MHW, the input "temp" is the sst data.
+The "time" is the data time range from 1982.1.1 to 2020.12.31. The "cli_start" and "cli_end" are the climatology period. We set these at 1993.1.1 and 2012.12.31 respectively.
+The "mhw_start" and "mhw_end" are the data range that you want find the wheather it have MHW or not. We set these  at 2015.11.1 and 2016.4.31 respectively.
+
+In my code, the function
+detect(temp, time, cli_start, cli_end, mhw_start, mhw_end)
+was used to calculate marine heatwaves (MHWs).
+
+The input temp represents the sea surface temperature (SST) data.
+The time variable corresponds to the full data record, spanning from 1982.1.1 to 2020.12.31.
+The climatological baseline is defined by cli_start and cli_end, which were set to 1993.1.1 and 2012.12.31, respectively.
+The analysis period for identifying marine heatwave events is specified by mhw_start and mhw_end, which were set to 2015.11.1 and 2016.4.30, corresponding to the austral summer of 2015–2016.
+
 %=====================================================================================================================
-The <output> folder provides the processed input data used in this analysis.
+The <output> folder provides the processed input data used in this analysis.(Due to memory limitations，didn't upload the orginal data SST)
+
+We use oisst data (https://www.ncei.noaa.gov/products/optimum-interpolation-sst) with time from 1982.1.1 to 2020.12.31 and area: 100°E-160°E,5°S-25°S.
 
 The original data were interpolated to a 1/4° spatial resolution due to memory limitations of my computer.
+
+
+
+
+
+
+
 
