@@ -21,9 +21,10 @@ The <code> folder contains the scripts used to calculate the marine heatwave met
 %=====================================================================================================================
 The <output> folder provides the processed input data used in this analysis.(Due to memory limitations，didn't upload)
 
-We use oisst data (https://www.ncei.noaa.gov/products/optimum-interpolation-sst) data from 1982.1.1-2020.12.31
+We use oisst data (https://www.ncei.noaa.gov/products/optimum-interpolation-sst) data from 1982.1.1 to 2020.12.31
 
 The original data were interpolated to a 1/4° spatial resolution due to memory limitations of my computer.
+
 
 
 
